@@ -272,7 +272,7 @@ export default function App() {
                         </div>
                         <div className="bg-gray-50 border border-gray-100 rounded-2xl p-3 md:p-[14px_16px] text-left">
                           <span className="block text-[13px] text-gray-500 font-bold mb-1">TIME</span>
-                          <span className="text-gray-900 font-medium text-sm md:text-base">오후 11시 50분</span>
+                          <span className="text-gray-900 font-medium text-sm md:text-base">11시 50분 ~ 13시</span>
                         </div>
                         <div className="bg-gray-50 border border-gray-100 rounded-2xl p-3 md:p-[14px_16px] text-left">
                           <span className="block text-[13px] text-gray-500 font-bold mb-1">PLACE</span>
