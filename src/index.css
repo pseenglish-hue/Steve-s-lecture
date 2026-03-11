@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Pretendard", "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  background: linear-gradient(135deg, #f7f9ff 0%, #eef4ff 45%, #fff7ef 100%);
+  color: #1f2937;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 24px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+@media (max-width: 900px) {
+  body { padding: 18px; }
+}
+
+@media (max-width: 700px) {
+  html { scrollbar-gutter: auto; }
+  body {
+    padding: 12px;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+}
